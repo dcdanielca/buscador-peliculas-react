@@ -1,0 +1,27 @@
+.App {
+  padding-top: 36px;
+  text-align: center;
+}
+
+.SearchForm-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.MoviesList {
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 16px
+}
+
+.MoviesList-item{
+  margin-bottom: 24px;
+  width: 200px;
+  transition: ease 500ms;
+}
+
+.MoviesList-item:hover{
+  transform: scale(1.1);
+}
