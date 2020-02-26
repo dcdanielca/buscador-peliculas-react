@@ -29,7 +29,11 @@ class Home extends Component {
         {this.state.usedSearch ? (
           this._renderResults()
         ) : (
-          <small>Use the form to search a movie </small>
+          <div>
+            <small>Use the form to search a movie </small>
+            <br/>
+            <small> Learn React JS, <a href="https://www.udemy.com/course/aprendiendo-react">aquí</a> </small>
+          </div>
         )}
       </div>
     );

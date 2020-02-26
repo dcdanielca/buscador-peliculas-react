@@ -29,10 +29,10 @@ class Detail extends Component {
         return (
             <div>
                 <ButtonBackToHome/>
-                <h1>{Title}</h1>
+                <h1 className="title is-1">{Title}</h1>
                 <img src={Poster} alt={Title}/>
-                <h3>{Actors}</h3>
-                <span>{Metascore}</span>
+                <h3 className="title is-3">{Actors}</h3>
+                <span>{Metascore} 🌟</span>
                 <p>{Plot}</p>
             </div>
         );
